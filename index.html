@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Super Rugby House</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0ea5e9, #22c55e, #f97316);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+      color: white;
+    }
+
+    @keyframes gradient {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+    }
+
+    header p {
+      margin-top: 8px;
+      opacity: 0.9;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+    }
+
+    .section-title {
+      font-size: 1.4em;
+      margin: 25px 0 10px;
+    }
+
+    .card {
+      background: rgba(0,0,0,0.35);
+      backdrop-filter: blur(10px);
+      padding: 15px;
+      border-radius: 15px;
+      margin-bottom: 15px;
+    }
+
+    .teams {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .prediction {
+      margin-top: 8px;
+    }
+
+    .confidence {
+      margin-top: 5px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+
+    .update {
+      font-size: 0.95em;
+      border-left: 3px solid white;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>🏉 Super Rugby House</h1>
+  <p>The home of all things Super Rugby</p>
+</header>
+
+<div class="container">
+
+  <div class="section-title">🔥 Round Predictions</div>
+
+  <div class="card">
+    <div class="teams">Blues vs Crusaders</div>
+    <div class="prediction">Prediction: Blues to win</div>
+    <div class="confidence">Confidence: ★★★★☆</div>
+  </div>
+
+  <div class="card">
+    <div class="teams">Hurricanes vs Reds</div>
+    <div class="prediction">Prediction: Hurricanes to win</div>
+    <div class="confidence">Confidence: ★★★☆☆</div>
+  </div>
+
+  <div class="section-title">📰 Updates</div>
+
+  <div class="card">
+    <div class="update">Moana Pasifika showing serious improvement this season 👀</div>
+    <div class="update">Injury concerns for Crusaders ahead of big clash</div>
+  </div>
+
+</div>
+
+</body>
+</html>
