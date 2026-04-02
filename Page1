@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 40px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+      margin: 20px auto;
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🏉 Super Rugby Predictions</h1>
+<p>My weekly picks</p>
+
+<div class="card">
+  <h2>Blues vs Crusaders</h2>
+  <p>Prediction: Blues to win</p>
+</div>
+
+<div class="card">
+  <h2>Hurricanes vs Reds</h2>
+  <p>Prediction: Hurricanes to win</p>
+</div>
+
+</body>
+</html>
